@@ -7,11 +7,13 @@ This module provides:
 from myproject import __version__
 
 
-def foo1(a):
-    c = a + 1
+def foo2(a):
+  b = 0
+  c = a + 1  
+  if a > 0:
     if a > 10:
-        return 10
-    return a + c
+      return 10
+  return a + c
 
 
 def add(a: int, b: int) -> int:
