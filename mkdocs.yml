@@ -1,7 +1,8 @@
-site_name: Documentation
+site_name: FlyingDutchman
 
 nav:
   - Home: index.md
+  - My First Page: my-first-page.md
 
 theme: material
 
@@ -13,3 +14,12 @@ plugins:
         python:
           options:
             show_submodules: true
+
+markdown_extensions:
+  - admonition  # adds callout blocks like !!! note, !!! tip, !!! warning
+  - pymdownx.details # allows collapsible sections using ??? "Click to expand"
+  - pymdownx.superfences  # enables nested or advanced fenced code blocks (for tabs)
+  - pymdownx.tabbed:  # enables content tabs with === "Tab" syntax
+      alternate_style: true  # optional style variation for tabs
+  - pymdownx.tasklist:  # renders checkboxes for - [ ] and - [x] lists
+      custom_checkbox: true  # use themed checkboxes instead of plain bullets
