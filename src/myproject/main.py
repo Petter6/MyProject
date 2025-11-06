@@ -7,6 +7,21 @@ This module provides:
 from myproject import __version__
 
 
+def foo4():
+    menu_1 = {"1": "Start Game", "2": "Load Game", "3": "Options", "4": "Exit"}
+
+    # fmt: off
+    menu_2 = {
+      "1": "Start Game",
+      "2": "Load Game",
+      "3": "Options",
+      "4": "Exit"
+  }
+    # fmt: on
+
+    return menu_1, menu_2
+
+
 def foo3(a):
     b = 0  # noqa: F841
     c = a + 1
