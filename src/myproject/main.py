@@ -7,6 +7,10 @@ This module provides:
 from myproject import __version__
 
 
+def hall0():
+    print("hallo")
+
+
 def foo():
     print("hallo")
 
