@@ -7,6 +7,10 @@ This module provides:
 from myproject import __version__
 
 
+def foo():
+    print("hallo")
+
+
 def foo4():
     menu_1 = {"1": "Start Game", "2": "Load Game", "3": "Options", "4": "Exit"}
 
